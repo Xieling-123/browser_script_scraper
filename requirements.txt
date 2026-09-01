@@ -1,0 +1,5 @@
+# Editable Git install with no remote (browser_script_scraper==0.1.0)
+-e d:\mytool\01_doc\doc-python\browser_script_scraper
+packaging==26.3
+setuptools==84.0.0
+wheel==0.48.0
