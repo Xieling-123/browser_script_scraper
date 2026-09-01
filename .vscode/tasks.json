@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "运行测试",
+      "type": "shell",
+      "command": "pytest",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "格式化代码",
+      "type": "shell",
+      "command": "black .",
+      "problemMatcher": []
+    },
+    {
+      "label": "启动主程序",
+      "type": "shell",
+      "command": "python src/main.py",
+      "problemMatcher": []
+    }
+  ]
+}
